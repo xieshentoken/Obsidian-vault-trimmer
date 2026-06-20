@@ -11,7 +11,8 @@ An AI agent skill for classify obsidian vault
 - 纯 Python 标准库，兼容 Python 3.9+。
 SKILL.md 为平台中立入口；agents/openai.yaml 供 Codex 使用，OpenClaw 可忽略。
 ## 常用命令：
-〉python3 scripts/kb_organizer.py audit --root /path/to/notes
-〉python3 scripts/kb_organizer.py init-config --root /path/to/notes
-〉python3 scripts/kb_organizer.py organize --root /path/to/notes
-〉python3 scripts/kb_organizer.py organize --root /path/to/notes --apply
+‘’‘bash
+python3 scripts/kb_organizer.py audit --root /path/to/notes
+python3 scripts/kb_organizer.py init-config --root /path/to/notes
+python3 scripts/kb_organizer.py organize --root /path/to/notes
+python3 scripts/kb_organizer.py organize --root /path/to/notes --apply
