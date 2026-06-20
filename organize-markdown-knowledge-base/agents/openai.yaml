@@ -1,0 +1,4 @@
+interface:
+  display_name: "Organize Markdown Knowledge Base"
+  short_description: "Audit, link, and maintain Markdown knowledge bases"
+  default_prompt: "Use $organize-markdown-knowledge-base to audit and organize this Markdown knowledge base without assuming a fixed folder structure."
