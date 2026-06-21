@@ -1,0 +1,4 @@
+interface:
+  display_name: "Search Markdown Knowledge Base"
+  short_description: "Search concepts and industries across linked Markdown notes"
+  default_prompt: "Use $search-markdown-knowledge-base to find and synthesize relevant notes for this concept or industry."
