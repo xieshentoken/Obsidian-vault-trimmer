@@ -1,0 +1,50 @@
+{
+  "profile": "auto",
+  "include_globs": ["**/*.md", "*.md"],
+  "exclude_globs": [
+    ".git/**",
+    ".obsidian/**",
+    ".trash/**",
+    "node_modules/**",
+    "agent-skills/**",
+    "**/.git/**",
+    "**/.obsidian/**",
+    "**/.trash/**",
+    "**/node_modules/**",
+    "**/agent-skills/**"
+  ],
+  "fields": {
+    "type": "type",
+    "tags": "tags",
+    "hubs": "moc",
+    "topics": "topics",
+    "organization_status": "organization_status",
+    "organization_version": "organization_version",
+    "organization_hash": "organization_hash"
+  },
+  "para": {
+    "inbox_names": ["Inbox"],
+    "map_names": ["Map", "Maps", "MOC", "MOCs"],
+    "support_names": ["Projects", "Areas", "Resources", "Archives"],
+    "high_confidence": 0.85,
+    "medium_confidence": 0.65
+  },
+  "hub_detection": {
+    "type_values": ["moc", "hub", "index", "map"],
+    "filename_suffixes": ["MOC", "Index", "Map", "Hub"],
+    "max_hubs_per_note": 3
+  },
+  "matching": {
+    "high_score": 70,
+    "review_score": 45,
+    "stop_topics": ["AI", "notes", "research", "general", "MOC", "hub", "index", "map"]
+  },
+  "rules": [],
+  "index": {
+    "enabled": true,
+    "path": ".knowledge-organizer-index.json"
+  },
+  "output": {
+    "max_items": 10
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Organize Markdown Knowledge Base"
+  short_description: "Incrementally classify Inbox notes and repair MOC links"
+  default_prompt: "Use $organize-markdown-knowledge-base to detect this vault profile and create a compact, reviewable organization plan."
