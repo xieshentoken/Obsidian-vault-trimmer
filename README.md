@@ -17,3 +17,5 @@ python3 scripts/kb_organizer.py init-config --root /path/to/notes
 python3 scripts/kb_organizer.py organize --root /path/to/notes
 python3 scripts/kb_organizer.py organize --root /path/to/notes --apply
 ‘’‘
+# Obsidian-search
+查找总结obsidian笔记中的相关信息
