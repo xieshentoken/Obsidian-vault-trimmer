@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.knowledge-organizer-plan.json
+.knowledge-organizer-state.json
+.knowledge-organizer-backup/

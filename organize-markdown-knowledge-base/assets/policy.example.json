@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "deny_paths": [
+    {
+      "path": "relative/private-directory",
+      "deny": ["read", "index", "classify", "link", "write", "verify"]
+    }
+  ]
+}

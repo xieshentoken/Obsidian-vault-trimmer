@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "fail_closed": true,
+  "protected_roots": [
+    {
+      "path": "/absolute/path/to/private-vault",
+      "deny_ancestor_scopes": true
+    },
+    {
+      "path": "/absolute/path/to/normal-vault/private-subdirectory",
+      "deny_ancestor_scopes": false
+    }
+  ]
+}

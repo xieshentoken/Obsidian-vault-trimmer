@@ -16,11 +16,13 @@
   "fields": {
     "type": "type",
     "tags": "tags",
+    "aliases": "aliases",
     "hubs": "moc",
     "topics": "topics",
     "organization_status": "organization_status",
     "organization_version": "organization_version",
-    "organization_hash": "organization_hash"
+    "organization_hash": "organization_hash",
+    "organization_candidates": "organization_candidates"
   },
   "para": {
     "inbox_names": ["Inbox"],
@@ -37,12 +39,30 @@
   "matching": {
     "high_score": 70,
     "review_score": 45,
-    "stop_topics": ["AI", "notes", "research", "general", "MOC", "hub", "index", "map"]
+    "stop_topics": ["AI", "notes", "research", "general", "MOC", "hub", "index", "map"],
+    "topic_aliases": {}
   },
   "rules": [],
+  "maintenance": {
+    "default_mode": "auto",
+    "full_review_days": 30,
+    "note_growth_count": 25,
+    "note_growth_ratio": 0.1,
+    "pending_inbox_count": 5
+  },
+  "taxonomy": {
+    "enabled": true,
+    "cluster_min_notes": 3,
+    "broad_moc_note_limit": 80,
+    "max_proposals": 10,
+    "evidence_chars": 360
+  },
+  "state": {
+    "path": ".knowledge-organizer-state.json"
+  },
   "index": {
     "enabled": true,
-    "path": ".knowledge-organizer-index.json"
+    "path": ""
   },
   "output": {
     "max_items": 10
